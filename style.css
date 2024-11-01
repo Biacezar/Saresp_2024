@@ -75,3 +75,25 @@ input {
     background-color: #e8f5e9; /* Verde muito claro */
     color: #2e7d32;
 }
+/* Parte 3: Botões e Ajuste Final */
+input:focus {
+    border-color: #388e3c; /* Bordas verde escuro ao focar */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #66bb6a; /* Verde Palmeiras para o botão */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c; /* Verde mais escuro ao passar o mouse */
+}
